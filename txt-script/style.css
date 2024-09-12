@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.status {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.success {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+}
